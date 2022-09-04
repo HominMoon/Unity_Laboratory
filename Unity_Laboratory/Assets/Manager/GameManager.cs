@@ -60,8 +60,7 @@ public class GameManager : MonoBehaviour
 
         player3.SetActive(true);
         cMV.Follow = player3.transform;
-        cMV.LookAt = player3Transform.transform;
-
+        
         DampingSettings0();
     }
 
